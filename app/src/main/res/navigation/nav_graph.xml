@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_grath"
+    app:startDestination="@id/diceTableFragment">
+
+    <fragment
+        android:id="@+id/diceTableFragment"
+        android:name="com.iushin.dice.diceTable.presentation.ui.DiceTableFragment"
+        android:label="dice_table_fragment"
+        tools:layout="@layout/dice_table_fragment" >
+        <action
+            android:id="@+id/action_diceTableFragment_to_globalSettingsFragment"
+            app:destination="@id/globalSettingsFragment" />
+        <action
+            android:id="@+id/action_diceTableFragment_to_rollSettingsFragment"
+            app:destination="@id/rollSettingsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/globalSettingsFragment"
+        android:name="com.iushin.dice.globalSettings.presentation.ui.GlobalSettingsFragment"
+        android:label="global_settings_fragment"
+        tools:layout="@layout/global_settings_fragment" />
+    <fragment
+        android:id="@+id/rollSettingsFragment"
+        android:name="com.iushin.dice.rollSettings.presentation.ui.RollSettingsFragment"
+        android:label="roll_settings_fragment"
+        tools:layout="@layout/roll_settings_fragment" />
+</navigation>
