@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".rollSettings.presentation.ui.RollSettingsFragment">
+    tools:context="com.iushin.presentation.ui.fragments.RollSettingsFragment">
 
     <TextView
         android:id="@+id/textView"

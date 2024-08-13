@@ -1,4 +1,4 @@
-package com.iushin.dice.main.ui
+package com.iushin.presentation.ui.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

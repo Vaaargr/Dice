@@ -1,4 +1,4 @@
-package com.iushin.dice.globalSettings.presentation.ui
+package com.iushin.presentation.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater

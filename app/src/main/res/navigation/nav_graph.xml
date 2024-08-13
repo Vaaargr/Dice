@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/diceTableFragment"
-        android:name="com.iushin.dice.diceTable.presentation.ui.DiceTableFragment"
+        android:name="com.iushin.presentation.ui.fragments.DiceTableFragment"
         android:label="dice_table_fragment"
         tools:layout="@layout/dice_table_fragment" >
         <action
@@ -19,12 +19,12 @@
     </fragment>
     <fragment
         android:id="@+id/globalSettingsFragment"
-        android:name="com.iushin.dice.globalSettings.presentation.ui.GlobalSettingsFragment"
+        android:name="com.iushin.presentation.ui.fragments.GlobalSettingsFragment"
         android:label="global_settings_fragment"
         tools:layout="@layout/global_settings_fragment" />
     <fragment
         android:id="@+id/rollSettingsFragment"
-        android:name="com.iushin.dice.rollSettings.presentation.ui.RollSettingsFragment"
+        android:name="com.iushin.presentation.ui.fragments.RollSettingsFragment"
         android:label="roll_settings_fragment"
         tools:layout="@layout/roll_settings_fragment" />
 </navigation>

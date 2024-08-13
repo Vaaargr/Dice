@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".diceTable.presentation.ui.DiceTableFragment">
+    tools:context="com.iushin.presentation.ui.fragments.DiceTableFragment">
 
     <Button
         android:id="@+id/roll_dice_button"
